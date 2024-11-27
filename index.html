@@ -14,7 +14,7 @@
         const fortunesArray = ["That sounds like a question for a crystal ball.", "What? Sorry, I wasn't listening.", "Perhaps, with great power of will.", "No, not even through a miracle.", "No, but I know you're going to try anyway.", "Whoa! Why do I have to answer this?", "You don't want to know, trust me.", "Soon."]
         do {
             //random number between 0 and 8 which will be used to access the phrases stored in the fortunesArray
-            let randomizer = Math.floor(Math.random() * 9);
+            let randomizer = Math.floor(Math.random() * 8);
             prompt("Ask the Magical Eight Ball fortune teller yes or no questions for accurate predictions about your future!")
             alert(`${fortunesArray[randomizer]}`)
             playAgain = prompt("Would you like to ask another question? Please enter y or n");
